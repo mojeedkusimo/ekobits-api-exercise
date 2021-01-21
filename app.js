@@ -11,7 +11,7 @@ app.use('/api/users', routes);
 
 app.get('/api', (req, res, next) => {
     try {
-        res.send('Welcome to Api exercise at the office');
+        res.send('Welcome to Deployed Api exercise');
     }
     catch (e) {
         return next(e);
